@@ -68,7 +68,6 @@ class Lottery {
         hitsSpan.innerText = this.hits;
         randNumbersSpan = document.querySelector("#rand-numbers");
         randNumbersSpan.innerText = this.randNumbers.join(", ");
-
     }
 
     play() {
